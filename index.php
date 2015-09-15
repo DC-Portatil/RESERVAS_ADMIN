@@ -36,10 +36,7 @@ if ($_GET['login']=="timeout") { $msg='<div class="alert alert-danger space-up1"
     <div class="col-md-4">
       <img src="images/logo.png">
     </div>
-    <div class="col-md-8">
-      <?php include "menu-out.php";?>
     </div>
-  </div>
   <div class="row space-up1">
     <div class="col-md-12">
       <div class="alert alert-info">
