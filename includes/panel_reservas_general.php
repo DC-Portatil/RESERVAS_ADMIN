@@ -43,11 +43,15 @@
 		<td align="center">
 		<div class="alert alert-warning">Front&oacute;n 3</div>
 		</td>
+		<td align="center">
+		<div class="alert alert-futbito">Futbito</div>
+		</td>
 	</tr>
 	<tr>
 <?php 
 include "includes/disponibilidad_tenis.php";
 include "includes/disponibilidad_fronton.php";
+include "includes/disponibilidad_futbito.php";
 
 ?>
 	
@@ -61,6 +65,7 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h9 openDialog btn btn-<?php echo $f1h9_btn_class;?>" <?php echo $f1h9_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h9"><?php echo $f1h9_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h9 openDialog btn btn-<?php echo $f2h9_btn_class;?>" <?php echo $f2h9_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h9"><?php echo $f2h9_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h9 openDialog btn btn-<?php echo $f3h9_btn_class;?>" <?php echo $f3h9_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h9"><?php echo $f3h9_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h9 openDialog btn btn-<?php echo $h1h9_btn_class;?>" <?php echo $h1h9_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h9"><?php echo $h1h9_btn_text;?></a></td>
 
 	</tr>
 	<tr>
@@ -74,6 +79,7 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h95 openDialog btn btn-<?php echo $f1h95_btn_class;?>" <?php echo $f1h95_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h95"><?php echo $f1h95_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h95 openDialog btn btn-<?php echo $f2h95_btn_class;?>" <?php echo $f2h95_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h95"><?php echo $f2h95_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h95 openDialog btn btn-<?php echo $f3h95_btn_class;?>" <?php echo $f3h95_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h95"><?php echo $f3h95_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h95 openDialog btn btn-<?php echo $h1h95_btn_class;?>" <?php echo $h1h95_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h95"><?php echo $h1h95_btn_text;?></a></td>
 
 	</tr>	
 	<tr>
@@ -87,6 +93,8 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h10 openDialog btn btn-<?php echo $f1h10_btn_class;?>" <?php echo $f1h10_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h10"><?php echo $f1h10_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h10 openDialog btn btn-<?php echo $f2h10_btn_class;?>" <?php echo $f2h10_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h10"><?php echo $f2h10_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h10 openDialog btn btn-<?php echo $f3h10_btn_class;?>" <?php echo $f3h10_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h10"><?php echo $f3h10_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h10 openDialog btn btn-<?php echo $h1h10_btn_class;?>" <?php echo $h1h10_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h10"><?php echo $h1h10_btn_text;?></a></td>
+
 	</tr>
 		<tr>
 		<td>10:30-11:00</td>
@@ -99,6 +107,9 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h105 openDialog btn btn-<?php echo $f1h105_btn_class;?>" <?php echo $f1h105_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h105"><?php echo $f1h105_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h105 openDialog btn btn-<?php echo $f2h105_btn_class;?>" <?php echo $f2h105_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h105"><?php echo $f2h105_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h105 openDialog btn btn-<?php echo $f3h105_btn_class;?>" <?php echo $f3h105_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h105"><?php echo $f3h105_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h105 openDialog btn btn-<?php echo $h1h105_btn_class;?>" <?php echo $h1h105_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h105"><?php echo $h1h105_btn_text;?></a></td>
+
+
 	</tr>
 	<tr>
 		<td>11:00-11:30</td>
@@ -111,6 +122,8 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h11 openDialog btn btn-<?php echo $f1h11_btn_class;?>" <?php echo $f1h11_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h11"><?php echo $f1h11_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h11 openDialog btn btn-<?php echo $f2h11_btn_class;?>" <?php echo $f2h11_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h11"><?php echo $f2h11_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h11 openDialog btn btn-<?php echo $f3h11_btn_class;?>" <?php echo $f3h11_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h11"><?php echo $f3h11_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h11 openDialog btn btn-<?php echo $h1h11_btn_class;?>" <?php echo $h1h11_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h11"><?php echo $h1h11_btn_text;?></a></td>
+	
 	</tr>
 		<tr>
 		<td>11:30-12:00</td>
@@ -123,6 +136,8 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h115 openDialog btn btn-<?php echo $f1h11_btn_class;?>" <?php echo $f1h115_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h115"><?php echo $f1h115_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h115 openDialog btn btn-<?php echo $f2h11_btn_class;?>" <?php echo $f2h115_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h115"><?php echo $f2h115_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h115 openDialog btn btn-<?php echo $f3h11_btn_class;?>" <?php echo $f3h115_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h115"><?php echo $f3h115_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h115 openDialog btn btn-<?php echo $h1h115_btn_class;?>" <?php echo $h1h115_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h115"><?php echo $h1h115_btn_text;?></a></td>
+
 	</tr>
 	<tr>
 		<td>12:00-12:30</td>
@@ -135,6 +150,8 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h12 openDialog btn btn-<?php echo $f1h12_btn_class;?>" <?php echo $f1h12_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h12"><?php echo $f1h12_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h12 openDialog btn btn-<?php echo $f2h12_btn_class;?>" <?php echo $f2h12_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h12"><?php echo $f2h12_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h12 openDialog btn btn-<?php echo $f3h12_btn_class;?>" <?php echo $f3h12_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h12"><?php echo $f3h12_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h12 openDialog btn btn-<?php echo $h1h12_btn_class;?>" <?php echo $h1h12_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h12"><?php echo $h1h12_btn_text;?></a></td>
+
 	</tr>
 		<tr>
 		<td>12:30-13:00</td>
@@ -147,6 +164,8 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h125 openDialog btn btn-<?php echo $f1h125_btn_class;?>" <?php echo $f1h125_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h125"><?php echo $f1h125_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h125 openDialog btn btn-<?php echo $f2h125_btn_class;?>" <?php echo $f2h125_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h125"><?php echo $f2h125_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h125 openDialog btn btn-<?php echo $f3h125_btn_class;?>" <?php echo $f3h125_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h125"><?php echo $f3h125_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h125 openDialog btn btn-<?php echo $h1h125_btn_class;?>" <?php echo $h1h125_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h125"><?php echo $h1h125_btn_text;?></a></td>
+
 	</tr>
 	<tr>
 		<td>13:00-13:30</td>
@@ -159,6 +178,8 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h13 openDialog btn btn-<?php echo $f1h13_btn_class;?>" <?php echo $f1h13_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h13"><?php echo $f1h13_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h13 openDialog btn btn-<?php echo $f2h13_btn_class;?>" <?php echo $f2h13_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h13"><?php echo $f2h13_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h13 openDialog btn btn-<?php echo $f3h13_btn_class;?>" <?php echo $f3h13_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h13"><?php echo $f3h13_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h13 openDialog btn btn-<?php echo $h1h13_btn_class;?>" <?php echo $h1h13_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h13"><?php echo $h1h13_btn_text;?></a></td>
+
 	</tr>
 	<tr>
 		<td>13:30-14:00</td>
@@ -171,6 +192,8 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h135 openDialog btn btn-<?php echo $f1h135_btn_class;?>" <?php echo $f1h135_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h135"><?php echo $f1h135_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h135 openDialog btn btn-<?php echo $f2h135_btn_class;?>" <?php echo $f2h135_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h135"><?php echo $f2h135_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h135 openDialog btn btn-<?php echo $f3h135_btn_class;?>" <?php echo $f3h135_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h135"><?php echo $f3h135_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h135 openDialog btn btn-<?php echo $h1h135_btn_class;?>" <?php echo $h1h135_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h135"><?php echo $h1h135_btn_text;?></a></td>
+	
 	</tr>
 	<tr>
 		<td>14:00-14:30</td>
@@ -183,6 +206,8 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h14 openDialog btn btn-<?php echo $f1h14_btn_class;?>" <?php echo $f1h14_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h14"><?php echo $f1h14_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h14 openDialog btn btn-<?php echo $f2h14_btn_class;?>" <?php echo $f2h14_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h14"><?php echo $f2h14_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h14 openDialog btn btn-<?php echo $f3h14_btn_class;?>" <?php echo $f3h14_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h14"><?php echo $f3h14_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h14 openDialog btn btn-<?php echo $h1h14_btn_class;?>" <?php echo $h1h14_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h14"><?php echo $h1h14_btn_text;?></a></td>
+	
 	</tr>
 	<tr>
 		<td>14:30-15:00</td>
@@ -195,6 +220,8 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h145 openDialog btn btn-<?php echo $f1h145_btn_class;?>" <?php echo $f1h145_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h145"><?php echo $f1h145_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h145 openDialog btn btn-<?php echo $f2h145_btn_class;?>" <?php echo $f2h145_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h145"><?php echo $f2h145_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h145 openDialog btn btn-<?php echo $f3h145_btn_class;?>" <?php echo $f3h145_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h145"><?php echo $f3h145_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h145 openDialog btn btn-<?php echo $h1h145_btn_class;?>" <?php echo $h1h145_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h145"><?php echo $h1h145_btn_text;?></a></td>
+	
 	</tr>
 	<tr>
 		<td>15:00-15:30</td>
@@ -207,6 +234,8 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h15 openDialog btn btn-<?php echo $f1h15_btn_class;?>" <?php echo $f1h15_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h15"><?php echo $f1h15_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h15 openDialog btn btn-<?php echo $f2h15_btn_class;?>" <?php echo $f2h15_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h15"><?php echo $f2h15_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h15 openDialog btn btn-<?php echo $f3h15_btn_class;?>" <?php echo $f3h15_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h15"><?php echo $f3h15_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h15 openDialog btn btn-<?php echo $h1h15_btn_class;?>" <?php echo $h1h15_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h15"><?php echo $h1h15_btn_text;?></a></td>
+
 	</tr>
 		<tr>
 		<td>15:30-16:00</td>
@@ -219,6 +248,7 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h155 openDialog btn btn-<?php echo $f1h155_btn_class;?>" <?php echo $f1h155_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h155"><?php echo $f1h155_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h155 openDialog btn btn-<?php echo $f2h155_btn_class;?>" <?php echo $f2h155_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h155"><?php echo $f2h155_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h155 openDialog btn btn-<?php echo $f3h155_btn_class;?>" <?php echo $f3h155_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h155"><?php echo $f3h155_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h155 openDialog btn btn-<?php echo $h1h155_btn_class;?>" <?php echo $h1h155_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h155"><?php echo $h1h155_btn_text;?></a></td>
 	</tr>
 	<tr>
 		<td>16:00-16:30</td>
@@ -231,6 +261,8 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h16 openDialog btn btn-<?php echo $f1h16_btn_class;?>" <?php echo $f1h16_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h16"><?php echo $f1h16_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h16 openDialog btn btn-<?php echo $f2h16_btn_class;?>" <?php echo $f2h16_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h16"><?php echo $f2h16_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h16 openDialog btn btn-<?php echo $f3h16_btn_class;?>" <?php echo $f3h16_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h16"><?php echo $f3h16_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h16 openDialog btn btn-<?php echo $h1h16_btn_class;?>" <?php echo $h1h16_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h16"><?php echo $h1h16_btn_text;?></a></td>
+
 	</tr>
 	<tr>
 		<td>16:30-17:00</td>
@@ -243,6 +275,7 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h165 openDialog btn btn-<?php echo $f1h165_btn_class;?>" <?php echo $f1h165_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h165"><?php echo $f1h165_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h165 openDialog btn btn-<?php echo $f2h165_btn_class;?>" <?php echo $f2h165_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h165"><?php echo $f2h165_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h165 openDialog btn btn-<?php echo $f3h165_btn_class;?>" <?php echo $f3h165_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h165"><?php echo $f3h165_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h165 openDialog btn btn-<?php echo $h1h165_btn_class;?>" <?php echo $h1h165_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h165"><?php echo $h1h165_btn_text;?></a></td>
 	</tr>
 	<tr>
 		<td>17:00-17:30</td>
@@ -255,6 +288,7 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h17 openDialog btn btn-<?php echo $f1h17_btn_class;?>" <?php echo $f1h17_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h17"><?php echo $f1h17_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h17 openDialog btn btn-<?php echo $f2h17_btn_class;?>" <?php echo $f2h17_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h17"><?php echo $f2h17_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h17 openDialog btn btn-<?php echo $f3h17_btn_class;?>" <?php echo $f3h17_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h17"><?php echo $f3h17_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h17 openDialog btn btn-<?php echo $h1h17_btn_class;?>" <?php echo $h1h17_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h17"><?php echo $h1h17_btn_text;?></a></td>
 	</tr>
 	<tr id="1730"></tr>
 	<tr>
@@ -265,6 +299,11 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h175 openDialog btn btn-<?php echo $t4h175_btn_class;?>" <?php echo $t4h175_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 4" data-hora="h175" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t4h175_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h175 openDialog btn btn-<?php echo $t5h175_btn_class;?>" <?php echo $t5h175_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 5" data-hora="h175" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t5h175_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h175 openDialog btn btn-<?php echo $t6h175_btn_class;?>" <?php echo $t6h175_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 6" data-hora="h175" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t6h175_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h175 openDialog btn btn-<?php echo $f1h175_btn_class;?>" <?php echo $f1h175_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h175"><?php echo $f1h175_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h175 openDialog btn btn-<?php echo $f2h175_btn_class;?>" <?php echo $f2h175_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h175"><?php echo $f2h175_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h175 openDialog btn btn-<?php echo $f3h175_btn_class;?>" <?php echo $f3h175_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h175"><?php echo $f3h175_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h175 openDialog btn btn-<?php echo $h1h175_btn_class;?>" <?php echo $h1h175_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h175"><?php echo $h1h175_btn_text;?></a></td>
+
 	</tr>
 	<tr id="1800"></tr>
 	<tr>
@@ -275,6 +314,11 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h18 openDialog btn btn-<?php echo $t4h18_btn_class;?>" <?php echo $t4h18_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 4" data-hora="h18" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t4h18_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h18 openDialog btn btn-<?php echo $t5h18_btn_class;?>" <?php echo $t5h18_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 5" data-hora="h18" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t5h18_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h18 openDialog btn btn-<?php echo $t6h18_btn_class;?>" <?php echo $t6h18_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 6" data-hora="h18" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t6h18_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h18 openDialog btn btn-<?php echo $f1h18_btn_class;?>" <?php echo $f1h18_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h18"><?php echo $f1h18_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h18 openDialog btn btn-<?php echo $f2h18_btn_class;?>" <?php echo $f2h18_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h18"><?php echo $f2h18_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h18 openDialog btn btn-<?php echo $f3h18_btn_class;?>" <?php echo $f3h18_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h18"><?php echo $f3h18_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h18 openDialog btn btn-<?php echo $h1h18_btn_class;?>" <?php echo $h1h18_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h18"><?php echo $h1h18_btn_text;?></a></td>
+
 	</tr>
 	<tr id="1830"></tr>
 	<tr>
@@ -285,6 +329,11 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h185 openDialog btn btn-<?php echo $t4h185_btn_class;?>" <?php echo $t4h185_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 4" data-hora="h185" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t4h185_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h185 openDialog btn btn-<?php echo $t5h185_btn_class;?>" <?php echo $t5h185_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 5" data-hora="h185" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t5h185_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h185 openDialog btn btn-<?php echo $t6h185_btn_class;?>" <?php echo $t6h185_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 6" data-hora="h185" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t6h185_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h185 openDialog btn btn-<?php echo $f1h185_btn_class;?>" <?php echo $f1h185_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h185"><?php echo $f1h185_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h185 openDialog btn btn-<?php echo $f2h185_btn_class;?>" <?php echo $f2h185_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h185"><?php echo $f2h185_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h185 openDialog btn btn-<?php echo $f3h185_btn_class;?>" <?php echo $f3h185_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h185"><?php echo $f3h185_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h185 openDialog btn btn-<?php echo $h1h185_btn_class;?>" <?php echo $h1h185_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h185"><?php echo $h1h185_btn_text;?></a></td>
+
 	</tr>	
 	<tr id="1900"></tr>
 	<tr>
@@ -295,6 +344,10 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h19 openDialog btn btn-<?php echo $t4h19_btn_class;?>" <?php echo $t4h19_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 4" data-hora="h19" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t4h19_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h19 openDialog btn btn-<?php echo $t5h19_btn_class;?>" <?php echo $t5h19_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 5" data-hora="h19" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t5h19_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h19 openDialog btn btn-<?php echo $t6h19_btn_class;?>" <?php echo $t6h19_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 6" data-hora="h19" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t6h19_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h19 openDialog btn btn-<?php echo $f1h19_btn_class;?>" <?php echo $f1h19_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h19"><?php echo $f1h19_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h19 openDialog btn btn-<?php echo $f2h19_btn_class;?>" <?php echo $f2h19_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h19"><?php echo $f2h19_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h19 openDialog btn btn-<?php echo $f3h19_btn_class;?>" <?php echo $f3h19_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h19"><?php echo $f3h19_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h19 openDialog btn btn-<?php echo $h1h19_btn_class;?>" <?php echo $h1h19_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h19"><?php echo $h1h19_btn_text;?></a></td>
 	</tr>	
 	<tr id="1930"></tr>
 	<tr>
@@ -305,6 +358,10 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h195 openDialog btn btn-<?php echo $t4h195_btn_class;?>" <?php echo $t4h195_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 4" data-hora="h195" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t4h195_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h195 openDialog btn btn-<?php echo $t5h195_btn_class;?>" <?php echo $t5h195_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 5" data-hora="h195" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t5h195_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h195 openDialog btn btn-<?php echo $t6h195_btn_class;?>" <?php echo $t6h195_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 6" data-hora="h195" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t6h195_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h195 openDialog btn btn-<?php echo $f1h195_btn_class;?>" <?php echo $f1h195_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h195"><?php echo $f1h195_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h195 openDialog btn btn-<?php echo $f2h195_btn_class;?>" <?php echo $f2h195_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h195"><?php echo $f2h195_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h195 openDialog btn btn-<?php echo $f3h195_btn_class;?>" <?php echo $f3h195_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h195"><?php echo $f3h195_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h195 openDialog btn btn-<?php echo $h1h195_btn_class;?>" <?php echo $h1h195_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h195"><?php echo $h1h195_btn_text;?></a></td>
 	</tr>	
 	<tr id="2000"></tr>
 	<tr>
@@ -315,6 +372,11 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h20 openDialog btn btn-<?php echo $t4h20_btn_class;?>" <?php echo $t4h20_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 4" data-hora="h20" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t4h20_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h20 openDialog btn btn-<?php echo $t5h20_btn_class;?>" <?php echo $t5h20_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 5" data-hora="h20" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t5h20_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h20 openDialog btn btn-<?php echo $t6h20_btn_class;?>" <?php echo $t6h20_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 6" data-hora="h20" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t6h20_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h20 openDialog btn btn-<?php echo $f1h20_btn_class;?>" <?php echo $f1h20_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h20"><?php echo $f1h20_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h20 openDialog btn btn-<?php echo $f2h20_btn_class;?>" <?php echo $f2h20_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h20"><?php echo $f2h20_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h20 openDialog btn btn-<?php echo $f3h20_btn_class;?>" <?php echo $f3h20_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h20"><?php echo $f3h20_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h20 openDialog btn btn-<?php echo $h1h20_btn_class;?>" <?php echo $h1h20_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h20"><?php echo $h1h20_btn_text;?></a></td>
+
 	</tr>
 	<tr id="2030"></tr>
 	<tr>
@@ -325,6 +387,11 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h205 openDialog btn btn-<?php echo $t4h205_btn_class;?>" <?php echo $t4h205_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 4" data-hora="h205" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t4h205_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h205 openDialog btn btn-<?php echo $t5h205_btn_class;?>" <?php echo $t5h205_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 5" data-hora="h205" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t5h205_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h205 openDialog btn btn-<?php echo $t6h205_btn_class;?>" <?php echo $t6h205_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 6" data-hora="h205" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t6h205_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h205 openDialog btn btn-<?php echo $f1h205_btn_class;?>" <?php echo $f1h205_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h205"><?php echo $f1h205_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h205 openDialog btn btn-<?php echo $f2h205_btn_class;?>" <?php echo $f2h205_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h205"><?php echo $f2h205_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h205 openDialog btn btn-<?php echo $f3h205_btn_class;?>" <?php echo $f3h205_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h205"><?php echo $f3h205_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h205 openDialog btn btn-<?php echo $h1h205_btn_class;?>" <?php echo $h1h205_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h205"><?php echo $h1h205_btn_text;?></a></td>
+
 	</tr>
 	<tr id="2100"></tr>
 	<tr>
@@ -335,6 +402,10 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h21 openDialog btn btn-<?php echo $t4h21_btn_class;?>" <?php echo $t4h21_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 4" data-hora="h21" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t4h21_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h21 openDialog btn btn-<?php echo $t5h21_btn_class;?>" <?php echo $t5h21_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 5" data-hora="h21" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t5h21_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h21 openDialog btn btn-<?php echo $t6h21_btn_class;?>" <?php echo $t6h21_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 6" data-hora="h21" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t6h21_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h21 openDialog btn btn-<?php echo $f1h21_btn_class;?>" <?php echo $f1h21_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h21"><?php echo $f1h21_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h21 openDialog btn btn-<?php echo $f2h21_btn_class;?>" <?php echo $f2h21_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h21"><?php echo $f2h21_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h21 openDialog btn btn-<?php echo $f3h21_btn_class;?>" <?php echo $f3h21_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h21"><?php echo $f3h21_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h21 openDialog btn btn-<?php echo $h1h21_btn_class;?>" <?php echo $h1h21_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h21"><?php echo $h1h21_btn_text;?></a></td>
 	</tr>
 	<tr id="2130"></tr>
 	<tr>
@@ -345,6 +416,11 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h215 openDialog btn btn-<?php echo $t4h215_btn_class;?>" <?php echo $t4h215_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 4" data-hora="h215" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t4h215_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h215 openDialog btn btn-<?php echo $t5h215_btn_class;?>" <?php echo $t5h215_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 5" data-hora="h215" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t5h215_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h215 openDialog btn btn-<?php echo $t6h215_btn_class;?>" <?php echo $t6h215_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 6" data-hora="h215" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t6h215_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h215 openDialog btn btn-<?php echo $f1h215_btn_class;?>" <?php echo $f1h215_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h215"><?php echo $f1h215_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h215 openDialog btn btn-<?php echo $f2h215_btn_class;?>" <?php echo $f2h215_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h215"><?php echo $f2h215_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h215 openDialog btn btn-<?php echo $f3h215_btn_class;?>" <?php echo $f3h215_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h215"><?php echo $f3h215_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h2105 openDialog btn btn-<?php echo $h1h215_btn_class;?>" <?php echo $h1h215_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h215"><?php echo $h1h215_btn_text;?></a></td>
+	
 	</tr>
 	<tr id="2200"></tr>
 	<tr>
@@ -355,6 +431,11 @@ include "includes/disponibilidad_fronton.php";
 		<td><a href="#doreserva" class="h22 openDialog btn btn-<?php echo $t4h22_btn_class;?>" <?php echo $t4h22_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 4" data-hora="h22" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t4h22_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h22 openDialog btn btn-<?php echo $t5h22_btn_class;?>" <?php echo $t5h22_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 5" data-hora="h22" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t5h22_btn_text;?></a></td>
 		<td><a href="#doreserva" class="h22 openDialog btn btn-<?php echo $t6h22_btn_class;?>" <?php echo $t6h22_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Tenis 6" data-hora="h22" data-usuario="<?php echo $id_usuario_reserva;?>"><?php echo $t6h22_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h22 openDialog btn btn-<?php echo $f1h22_btn_class;?>" <?php echo $f1h22_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 1" data-hora="h22"><?php echo $f1h22_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h22 openDialog btn btn-<?php echo $f2h22_btn_class;?>" <?php echo $f2h22_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 2" data-hora="h22"><?php echo $f2h22_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h22 openDialog btn btn-<?php echo $f3h22_btn_class;?>" <?php echo $f3h22_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Fronton 3" data-hora="h22"><?php echo $f3h22_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h22 openDialog btn btn-<?php echo $h1h22_btn_class;?>" <?php echo $h1h22_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h22"><?php echo $h1h22_btn_text;?></a></td>
+	
 	</tr>
 	</table>			
 

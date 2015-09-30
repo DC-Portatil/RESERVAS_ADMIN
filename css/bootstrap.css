@@ -2201,6 +2201,50 @@ fieldset[disabled] .btn-danger.active {
   border-color: #d43f3a;
 }
 
+
+.btn-futbito {
+  color: #ffffff;
+  background-color: #0d50bf;
+  border-color: #072c69;
+}
+
+.btn-futbito:hover,
+.btn-futbito:focus,
+.btn-futbito:active,
+.btn-futbito.active,
+.open .dropdown-toggle.btn-futbito {
+  color: #ffffff;
+  background-color: #0d50bf;
+  border-color: #072c69;
+}
+
+.btn-futbito:active,
+.btn-futbito.active,
+.open .dropdown-toggle.btn-futbito {
+  background-image: none;
+}
+
+.btn-futbito.disabled,
+.btn-futbito[disabled],
+fieldset[disabled] .btn-futbito,
+.btn-futbito.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-futbito:hover,
+.btn-futbito.disabled:focus,
+.btn-futbito[disabled]:focus,
+fieldset[disabled] .btn-futbito:focus,
+.btn-futbito.disabled:active,
+.btn-futbito[disabled]:active,
+fieldset[disabled] .btn-futbito:active,
+.btn-futbito.disabled.active,
+.btn-futbito[disabled].active,
+fieldset[disabled] .btn-futbito.active {
+  background-color: #055be9;
+  border-color: #044abe;
+}
+
+
+
 .btn-success {
   color: #ffffff;
   background-color: #5cb85c;
@@ -5077,6 +5121,21 @@ a.thumbnail:focus {
 }
 
 .alert-danger .alert-link {
+  color: #953b39;
+}
+
+
+.alert-futbito {
+  color: #055be9;
+  background-color: #9ec0f9;  
+  border-color: #81adf8;
+}
+
+.alert-futbito hr {
+  border-top-color: #e6c1c7;
+}
+
+.alert-futbito .alert-link {
   color: #953b39;
 }
 

@@ -122,7 +122,7 @@ include "includes/disponibilidad_futbito.php";
 	<tr id="2130"></tr>
 	<tr>
 		<td>21:30-22:00</td>
-		<td><a href="#doreserva" class="h2105 openDialog btn btn-<?php echo $h1h215_btn_class;?>" <?php echo $h1h215_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h215"><?php echo $h1h215_btn_text;?></a></td>
+		<td><a href="#doreserva" class="h215 openDialog btn btn-<?php echo $h1h215_btn_class;?>" <?php echo $h1h215_estado;?> data-toggle="modal"   data-dia="<?php echo $dia_consultado;?>" data-mes="<?php echo $new_fecha;?>" data-fecha="<?php echo $_POST['fecha'];?>" data-pista="Futbol 5" data-hora="h215"><?php echo $h1h215_btn_text;?></a></td>
 	</tr>
 	<tr id="2200"></tr>
 	<tr>
