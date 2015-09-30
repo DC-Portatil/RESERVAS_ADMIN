@@ -31,7 +31,6 @@ $archivo = basename($_SERVER['PHP_SELF']);
             <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Caja <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li <?php if ($archivo == "pago-reserva.php") {echo "class=\"active\"";}?>><a href="pago-reserva.php">Pago Reserva</a></li>
             <li <?php if ($archivo == "pago-cordaje.php") {echo "class=\"active\"";}?>><a href="pago-cordaje.php">Pago Cordaje</a></li>
             <li <?php if ($archivo == "venta.php") {echo "class=\"active\"";}?>><a href="venta.php">Venta</a></li>
             <li <?php if ($archivo == "gasto.php") {echo "class=\"active\"";}?>><a href="gasto.php">Gasto</a></li>

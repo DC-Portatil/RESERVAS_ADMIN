@@ -27,7 +27,7 @@ $hoy 			= date("d/m/Y");
 
 
 if ($dia_hoy_l=="Monday") 		{$dia_hoy_l = "Lunes";}
-if ($dia_hoy_l=="Tueday") 		{$dia_hoy_l = "Martes";}
+if ($dia_hoy_l=="Tuesday") 		{$dia_hoy_l = "Martes";}
 if ($dia_hoy_l=="Thursday") 	{$dia_hoy_l = "Miercoles";}
 if ($dia_hoy_l=="Wednesday") 	{$dia_hoy_l = "Jueves";}
 if ($dia_hoy_l=="Friday") 		{$dia_hoy_l = "Viernes";}
