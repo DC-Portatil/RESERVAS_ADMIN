@@ -4,7 +4,7 @@ if ($_GET['login']=="getout") {
 setcookie("ValidUser", $_GET['a'],time()-3600);
  $msg='<div class="alert alert-success space-up1"><small>Gracias por utilizar este sistema.Te esperamos pronto!</div>';
 }
-if ($_GET['login']=="error") { $msg='<div class="alert alert-danger space-up1"><small>Email o password incorrectos.<br><a href="#"><strong>Recordar Contrase&ntilde;a</strong></small></a></div>';}
+if ($_GET['login']=="error") { $msg='<div class="alert alert-danger space-up1"><small>Email o password incorrectos.<br><a href="recordar-password.php"><strong>Recordar Contrase&ntilde;a</strong></small></a></div>';}
 if ($_GET['login']=="timeout") { $msg='<div class="alert alert-danger space-up1"><small>Tu sesi&oacute;n ha expirado! Por seguridad tienes que volver a identificarte.</div>';}
 ?>
 <!DOCTYPE html>

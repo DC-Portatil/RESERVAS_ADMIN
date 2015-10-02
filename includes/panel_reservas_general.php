@@ -49,9 +49,10 @@
 	</tr>
 	<tr>
 <?php 
-include "includes/disponibilidad_tenis.php";
-include "includes/disponibilidad_fronton.php";
-include "includes/disponibilidad_futbito.php";
+
+include "includes/admin_disponibilidad_tenis.php";
+include "includes/admin_disponibilidad_fronton.php";
+include "includes/admin_disponibilidad_futbito.php";
 
 ?>
 	
@@ -441,9 +442,9 @@ include "includes/disponibilidad_futbito.php";
 
 <?php
 	//buscamos el horario cuando comienza la luz segun el mes
-
-$ghj = explode("/",$_POST['fecha']);
+$ghj = explode("/",$hoy);
 $mesdereserva = $ghj['1'];
+
 
 $query = "SELECT hora FROM meses_iluminacion WHERE mes = '$mesdereserva' AND id_club = '$id_club'";
 $pp = new conexionBD();
@@ -464,39 +465,15 @@ include "includes/indica_inicio_iluminacion_tenis.php";
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Confirmaci&oacute;n de Reserva</h4>
+        <h4 class="modal-title" id="myModalLabel">Gesti&oacute;n Reserva</h4>
       </div>
       <div class="modal-body">
-      	<div class="row">
-	      	<div class="col-md-7">
-	      		<form method="post" name="form1">
-	      		<input type="hidden" name="pista_selected" value="pista_selected" >
-	      		<input type="hidden" name="doreserva" value="doreserva">
-	      		<input type="hidden" id="hora" value="" name="hora">
-	      		<input type="hidden" id="fecha" value="" name="fecha">
-	      		<input type="hidden" id="mes" value="" name="mes">
-	      		<input type="hidden" value="tenis" name="tipo_pista">
-	      		<input type="hidden" value="fecha_selected" name="fecha_selected">
-	      		<input type="hidden" id="ppista" name="pista">
-
-		      	<div class="alert alert-info"><strong>Reserva <span id="titdia"></span>, <span id="titfecha"></span></strong><hr>Pista <span id="titpista"></span>. <br><strong><span id="tithora"></span></strong></div>
-		        <div class="alert alert-success">Para confirmar que deseas reservar esta pista, debes hacer clic en <strong>confirmar reserva.</strong></div>
-	      	</div>
-	      	<div class="col-md-5">
-	      		<div class="panel panel-primary">
-	      			<div class="panel-heading">
-	      				<h3 class="panel-title">Pista <span id="pista"></span></h3>
-	      			</div>	
-	      			<div class="panel-body">
-	      				<img src="" id="image" class="img-thumbnail">
-	      			</div>
-	      		</div>
-	      	</div>
-      	</div>
+      	
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-        <button id="confres" type="button" class="btn btn-danger" onclick="document.form1.submit();">Confirmar Reserva</button>
+        <button id="" type="button" class="btn btn-danger" onclick="document.form1.submit();">Pagar Reserva</button>
+        <button id="" type="button" class="btn btn-success" onclick="document.form2.submit();">Pagar Reserva</button>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
